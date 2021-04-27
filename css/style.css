@@ -1,0 +1,147 @@
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 50px;
+  font-family: "Indie Flower", cursive;
+  color: #c71585;
+}
+
+h2 {
+  position: absolute;
+}
+
+span {
+  color: #00ced1;
+}
+
+.about {
+  background-color: #ebebeb;
+  padding: 60px 0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__img img {
+  width: 80%;
+}
+
+.about__img {
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  width: 40%;
+}
+
+.about__content {
+  width: 40%;
+}
+
+.main {
+  height: 600px;
+  display: flex;
+}
+.content {
+  background: #c71585;
+  height: 100%;
+  color: #fff;
+  width: 50%;
+}
+.sidebar {
+  background: #e5c4f8;
+  height: 50%;
+  color: #fff;
+  width: 50%;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.practice__card {
+  width: 30%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.card__img img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.tag {
+  font-size: 14px;
+  text-align: left;
+}
+
+.card__tag {
+  display: inline-block;
+}
+
+.card__date {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  width: 60%;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.d-fl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fl-itm {
+  width: 50%;
+}
+
+.practice__btn {
+  width: 200px;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff5800, #8b00be);
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+  margin: 100px auto 0;
+  display: block;
+}
