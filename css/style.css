@@ -29,7 +29,7 @@ a {
 .relative__img {
   margin: 0 0 0 auto;
   display: block;
-  width: 50%;
+  width: 60%;
 }
 
 .absolute {
@@ -65,36 +65,44 @@ span {
   margin: 0px;
 }
 
-.defaultlist li {
-  list-style-type: none !important;
-  list-style-image: none !important;
-  margin: 5px 0px 5px 0px !important;
+.news {
+  border-top: 1px solid #aaaaaa;
+  width: 100%;
+}
+.news li {
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 14px;
+}
+.news li a {
+  display: table;
+  padding: 10px;
+  width: 100%;
 }
 
-.list5 li {
-  position: relative;
+.news li p {
+  display: table-cell;
   padding-left: 20px;
+  vertical-align: middle;
 }
-.list5 li:before {
-  content: "";
-  height: 0px;
-  width: 90%;
-  display: block;
-  position: absolute;
-  top: 18px;
-  left: 0px;
-  border-bottom: 1px dashed #aaa;
+
+.news li time {
+  display: table-cell;
+  vertical-align: top;
+  width: 90px;
 }
-.list5 li:after {
-  content: "";
-  display: block;
-  position: absolute;
-  background: #aaa;
-  width: 5px;
-  height: 5px;
-  top: 7px;
-  left: 5px;
-  border-radius: 5px;
+
+.news li .news01,
+.news li .news02,
+.news li .news03,
+.news li .news04,
+.news li .news05 {
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 9px;
+  padding: 0 2px;
+  text-align: center;
+  width: 50px;
+  background-color: #c71585;
 }
 
 .about {
