@@ -34,12 +34,13 @@ a {
 
 .absolute {
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 30%;
+  left: 35%;
+  line-height: 40px;
 }
 
-h1 {
-  font-size: 100px;
+.text {
+  font-size: 50px;
   font-family: "Indie Flower", cursive;
   color: #c71585;
 }
@@ -48,9 +49,50 @@ span {
   color: #00ced1;
 }
 
-h2 {
+.commit {
   font-size: 20px;
   color: #c71585;
+}
+
+.company {
+  font-size: 15px;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.defaultlist li {
+  list-style-type: none !important;
+  list-style-image: none !important;
+  margin: 5px 0px 5px 0px !important;
+}
+
+.list5 li {
+  position: relative;
+  padding-left: 20px;
+}
+.list5 li:before {
+  content: "";
+  height: 0px;
+  width: 90%;
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  border-bottom: 1px dashed #aaa;
+}
+.list5 li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #aaa;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 5px;
+  border-radius: 5px;
 }
 
 .about {
