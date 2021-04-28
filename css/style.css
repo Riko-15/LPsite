@@ -36,7 +36,10 @@ a {
   position: absolute;
   top: 50%;
   left: 20%;
-  font-size: 50px;
+}
+
+h1 {
+  font-size: 100px;
   font-family: "Indie Flower", cursive;
   color: #c71585;
 }
@@ -44,6 +47,12 @@ a {
 span {
   color: #00ced1;
 }
+
+h2 {
+  font-size: 20px;
+  color: #c71585;
+}
+
 .about {
   background-color: #ebebeb;
   padding: 60px 0;
@@ -133,7 +142,6 @@ span {
 
 table {
   width: 60%;
-  
 }
 table th,
 table td {
