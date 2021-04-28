@@ -16,7 +16,7 @@ a {
 }
 .header-nav-list {
   display: flex;
-  font-weight: bold;
+  font-weight: lighter;
 }
 .header-nav-item:not(:last-child) {
   margin-right: 30px;
@@ -35,14 +35,14 @@ a {
 .absolute {
   position: absolute;
   top: 30%;
-  left: 35%;
-  line-height: 40px;
+  left: 30%;
 }
 
 .text {
   font-size: 50px;
   font-family: "Indie Flower", cursive;
   color: #c71585;
+  line-height: 100px;
 }
 
 span {
@@ -52,10 +52,12 @@ span {
 .commit {
   font-size: 20px;
   color: #c71585;
+  line-height: 30px;
 }
 
 .company {
   font-size: 15px;
+  font-weight: lighter;
 }
 
 .list {
