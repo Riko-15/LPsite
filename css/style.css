@@ -66,14 +66,22 @@ span {
 }
 
 .newslist {
-  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 300px;
 }
 
-h1 {
+h2 {
   font-size: 20px;
   color: #c71585;
   font-family: "Indie Flower", cursive;
 }
+
+h3 {
+  font-size: 20px;
+}
+
 .news {
   border-top: 1px solid #aaaaaa;
   width: 100%;
