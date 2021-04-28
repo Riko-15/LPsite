@@ -29,7 +29,7 @@ a {
 .relative__img {
   margin: 0 0 0 auto;
   display: block;
-  width: 60%;
+  width: 55%;
 }
 
 .absolute {
@@ -65,6 +65,15 @@ span {
   margin: 0px;
 }
 
+.newslist {
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #c71585;
+  font-family: "Indie Flower", cursive;
+}
 .news {
   border-top: 1px solid #aaaaaa;
   width: 100%;
@@ -115,18 +124,33 @@ span {
 }
 
 .about__img img {
+  position: relative;
   width: 80%;
 }
 
 .about__img {
   margin-top: 20px;
   position: relative;
-  left: 50%;
+  left: 40%;
   width: 40%;
 }
 
 .about__content {
+  position: absolute;
   width: 40%;
+  left: 10%;
+}
+
+.about__content-ttl {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: #c71585;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .main {
