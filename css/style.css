@@ -60,26 +60,21 @@ span {
   font-weight: lighter;
 }
 
-.list {
-  padding: 0px;
-  margin: 0px;
-}
-
 .newslist {
-  display: flex;
-  justify-content: center;
   width: 60%;
-  height: 300px;
+  margin: 0 auto;
 }
 
 h2 {
   font-size: 20px;
   color: #c71585;
   font-family: "Indie Flower", cursive;
+  line-height: 30px;
 }
 
 h3 {
   font-size: 20px;
+  line-height: 30px;
 }
 
 .news {
@@ -137,19 +132,24 @@ h3 {
 }
 
 .about__img {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
   left: 40%;
   width: 40%;
 }
 
+.about01 {
+position: absolute;
+left: -50px;
+}
+
+
 .about__content {
   position: absolute;
-  width: 40%;
-  left: 10%;
 }
 
 .about__content-ttl {
+  position: absolute;
   text-align: center;
   font-family: "Indie Flower", cursive;
   color: #c71585;
@@ -178,7 +178,22 @@ h3 {
   width: 50%;
 }
 
+.sidebar02 {
+  background: rosybrown;
+  height: 50%
+  color: #fff;
+  width: 50%
+}
+
 .flex__item {
+  margin: 0 auto;
+  width: 60%;
+  background-color: #ebebeb;
+  padding: 60px 0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -197,6 +212,8 @@ h3 {
 
 .card__content {
   padding: 15px 25px;
+  background-color: white;
+  border-radius: 30px;
 }
 
 .card__ttl {
@@ -224,7 +241,13 @@ h3 {
   justify-content: space-between;
 }
 
+h2,
+h3 {
+  margin: 0 auto;
+}
+
 table {
+  margin: 0 auto;
   width: 60%;
 }
 table th,
