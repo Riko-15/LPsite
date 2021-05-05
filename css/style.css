@@ -168,26 +168,22 @@ h3 {
   font-weight: bold;
 }
 
-.main {
+.service {
   height: 600px;
-  display: flex;
 }
 .content {
-  background: #00adb9;
+  background: #c71585;
   height: 100%;
-  color: #fff;
   width: 50%;
 }
 .sidebar1 {
   background: #e5c4f8;
   height: 50%;
-  color: #fff;
   width: 50%;
 }
 .sidebar2 {
   background: #f7ea00;
   height: 50%;
-  color: #fff;
 }
 
 .flex__item {
