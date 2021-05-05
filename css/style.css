@@ -178,13 +178,13 @@ h3 {
   color: #fff;
   width: 50%;
 }
-.sidebar {
+.sidebar1 {
   background: #e5c4f8;
   height: 50%;
   color: #fff;
   width: 50%;
 }
-.footer {
+.sidebar2 {
   background: #f7ea00;
   height: 50%;
   color: #fff;
@@ -276,13 +276,7 @@ table th {
 }
 
 .d-fl {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.fl-itm {
-  width: 50%;
+  width: 10%;
 }
 
 .practice__btn {
