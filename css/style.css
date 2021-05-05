@@ -141,8 +141,12 @@ h3 {
 .about01 {
 position: absolute;
 left: -50px;
+width: 40%;
 }
 
+.about02 {
+  display: flex;
+}
 
 .about__content {
   position: absolute;
@@ -187,7 +191,6 @@ left: -50px;
 
 .flex__item {
   margin: 0 auto;
-  width: 60%;
   background-color: #ebebeb;
   padding: 60px 0;
   margin-top: 200px;
@@ -202,6 +205,17 @@ left: -50px;
   width: 30%;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
+  position:relative;
+}
+
+.practice__card p1 {
+    position: absolute;
+    top: 0;
+    left: 10px ;
+    color: white;
+    background-color: #c71585;
+    border-top-left-radius: 30px;
+    font-size: 30px;
 }
 
 .card__img img {
