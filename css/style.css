@@ -180,8 +180,11 @@ h3 {
   background: #e5c4f8;
   height: 50%;
   width: 50%;
+
 }
+
 .sidebar2 {
+  width: 50%;
   background: #f7ea00;
   height: 50%;
 }
