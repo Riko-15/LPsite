@@ -170,15 +170,12 @@ h3 {
 
 .service {
   height: 600px;
+  display: flex;
 }
 .content {
   background: #c71585;
   height: 100%;
   width: 50%;
-}
-
-.sidebar {
-  float: left;
 }
 
 .sidebar1 {
@@ -215,9 +212,10 @@ h3 {
 .practice__card p1 {
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 0;
   color: white;
   background-color: #c71585;
+  background-size: 100px;
   border-top-left-radius: 30px;
   font-size: 30px;
 }
@@ -278,8 +276,19 @@ table th {
   background-color: #dedede;
 }
 
-.d-fl {
-  width: 10%;
+.yokonarabi {
+  display: flex;
+}
+.yokonarabi {
+  width: 100%;
+}
+
+.saiyo {
+  width: 200px;
+}
+
+.syainn {
+  width: 200px;
 }
 
 .practice__btn {
