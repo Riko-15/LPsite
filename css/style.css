@@ -176,17 +176,21 @@ h3 {
   height: 100%;
   width: 50%;
 }
+
+.sidebar {
+  float: left;
+}
+
 .sidebar1 {
   background: #e5c4f8;
-  height: 50%;
+  height: 300px;
   width: 50%;
-
 }
 
 .sidebar2 {
   width: 50%;
   background: #f7ea00;
-  height: 50%;
+  height: 300px;
 }
 
 .flex__item {
