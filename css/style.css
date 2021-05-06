@@ -169,7 +169,8 @@ h3 {
 }
 
 .service {
-  height: 600px;
+  width: 60%;
+  height: 360px;
   display: flex;
   position: relative;
   margin: 0 auto;
@@ -186,32 +187,33 @@ h3 {
 
 .sidebar1 {
   background: #c71585;
-  height: 300px;
+  height: 180px;
   width: 100%;
 }
 
 .sidebar2 {
   width: 100%;
   background: #db7093;
-  height: 300px;
+  height: 180px;
 }
 
 .service01 {
   width: 20%;
   position: absolute;
-  left: 200px;
+  left: 100px;
 }
 
 .service02,
 .service03 {
-  width: 20%;
+  width: 15%;
   position: absolute;
-  left: 700px;
+  left: 400px;
 }
 
+.kyoiku01,
 .kyoiku02,
 .kyoiku03 {
-  position: absolute;
+  display: flex;
   color: white;
   top: 20%;
   right: -50%;
@@ -313,7 +315,20 @@ table th {
   color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.flex p6 {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 75%;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
