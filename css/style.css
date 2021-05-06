@@ -171,23 +171,50 @@ h3 {
 .service {
   height: 600px;
   display: flex;
+  position: relative;
+  margin: 0 auto;
 }
 .content {
-  background: #c71585;
+  background: rgb(218, 13, 115);
   height: 100%;
   width: 50%;
 }
 
-.sidebar1 {
-  background: #e5c4f8;
-  height: 300px;
+.sidebar {
   width: 50%;
 }
 
-.sidebar2 {
-  width: 50%;
-  background: #f7ea00;
+.sidebar1 {
+  background: #c71585;
   height: 300px;
+  width: 100%;
+}
+
+.sidebar2 {
+  width: 100%;
+  background: #db7093;
+  height: 300px;
+}
+
+.service01 {
+  width: 20%;
+  position: absolute;
+  left: 200px;
+}
+
+.service02,
+.service03 {
+  width: 20%;
+  position: absolute;
+  left: 700px;
+}
+
+.kyoiku02,
+.kyoiku03 {
+  position: absolute;
+  color: white;
+  top: 20%;
+  right: -50%;
 }
 
 .flex__item {
@@ -276,19 +303,22 @@ table th {
   background-color: #dedede;
 }
 
-.yokonarabi {
+.flex {
   display: flex;
-}
-.yokonarabi {
-  width: 100%;
+  position: relative;
 }
 
-.saiyo {
-  width: 200px;
-}
-
-.syainn {
-  width: 200px;
+.flex p5 {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
 }
 
 .practice__btn {
