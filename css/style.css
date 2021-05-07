@@ -66,6 +66,7 @@ span {
 }
 
 .newslist {
+  margin-top: 100px;
   width: 60%;
   margin: 0 auto;
 }
@@ -181,7 +182,6 @@ h3 {
   width: 70%;
   height: 360px;
   display: flex;
-  position: relative;
   margin: 0 auto;
 }
 .content {
@@ -206,10 +206,10 @@ h3 {
   height: 180px;
 }
 
-.service01 {
-  width: 20%;
-  position: absolute;
-  left: 100px;
+.picture01 {
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 .picture02,
@@ -225,12 +225,19 @@ h3 {
 }
 
 .kyoiku01 {
+  width: 300px;
   color: white;
-  top: 20%;
+  top: -40%;
   left: -20%;
-  margin-top: 30px;
-  width: 200%;
+  margin-top: 10px;
+  margin: 70px;
 }
+
+.kyoiku01 h5 {
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
 .kyoiku02,
 .kyoiku03 {
   color: white;
@@ -244,11 +251,11 @@ h3 {
   background-color: #ebebeb;
   padding: 60px 0;
   margin-top: 200px;
-  display: flex;
-  justify-content: space-around;
   padding-right: 100px;
-  display: flex;
-  justify-content: space-between;
+}
+
+.card {
+  width: 900px;
 }
 
 .practice__card {
@@ -278,7 +285,8 @@ h3 {
 .card__content {
   padding: 15px 25px;
   background-color: white;
-  border-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .card__ttl {
@@ -326,6 +334,7 @@ table th {
 }
 
 .flex {
+  margin-top: 200px;
   display: flex;
   position: relative;
 }
