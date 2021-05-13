@@ -256,6 +256,10 @@ h3 {
 
 .card {
   width: 900px;
+  margin-left: 150px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .practice__card {
@@ -271,15 +275,15 @@ h3 {
   left: 0;
   color: white;
   background-color: #c71585;
-  background-size: 100px;
-  border-top-left-radius: 30px;
-  font-size: 30px;
+  border-radius: 15px 0 0 0;
+  padding: 5px 20px;
 }
 
 .card__img img {
   width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  vertical-align: bottom;
 }
 
 .card__content {
@@ -317,6 +321,21 @@ h3 {
 h2,
 h3 {
   margin: 0 auto;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #c71585;
+  border: solid 2px ;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #c71585;
+  color: white;
 }
 
 table {
